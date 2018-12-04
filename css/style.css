@@ -1,0 +1,311 @@
+/*
+Theme Name: DI UNS
+Theme URI: https://www.uns.ac.id/
+Author: Data dan Informasi
+Author URI: https://www.uns.ac.id/
+Description: DI UNS is a theme developed by Bagian Data dan Informasi Universitas Sebelas Maret (Data and Information Division of Universitas Sebelas Maret) .
+Version: 1.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: di-uns
+Domain Path: /languages/
+Tags: academic, uns, data information
+*/
+
+body{
+	font-family: 'Asap', sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(255,255,255);
+}
+
+/**Navigasi Menu Atas*/
+.top-menu{
+	background: linear-gradient(to right, rgba(3,169,244 ,1), rgba(21,101,192 ,1));
+	overflow: hidden;
+	padding-left: 50px;
+	
+}
+
+.top-menu a{
+	float: left;
+	display: block;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	color: rgb(255,255,255);
+}
+
+.top-menu .a-biasa:hover{
+	background-color: rgb(255,235,59);
+}
+
+.top-menu ul{
+	list-style-type: none;
+}
+
+/*Navigasi Menu Bawah*/
+#uns-logo{
+	width: 60px;
+	margin-left: 40px;
+}
+
+nav #institution-name{
+	float: left;
+	color: rgba(0,143,215 ,1);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+nav a{
+	padding: 10px 10px;
+	color: rgba(0,0,0 ,1);
+}
+
+nav a:hover{
+	color: rgba(0,143,215 ,1);
+	text-decoration: none;
+}
+
+/*Sidebar*/
+#class-sidebar ul{
+	list-style-type: none;
+}
+
+aside a:hover{
+	text-decoration: none;
+}
+
+aside ul{
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+aside li:hover{
+	font-weight: 700;
+}
+
+/**Navigasi Menu Bawah*/
+h6.menu-footer {
+	font-weight: 700;
+	color: rgba(0,143,215 ,1);
+	text-transform: uppercase;
+}
+
+.bottom-menu{
+	height: 100px;
+	background-color: rgb(255, 255, 255);
+}
+
+.bottom-menu #logo{
+	float: left;
+	padding-top: 20px;
+	padding-left: 60px;
+}
+
+.bottom-menu #institution-name{
+	float: left;
+	color: rgb(0,143,215);
+	font-weight: 700;
+	padding-top: 12.5px;
+	padding-left: 10px;
+	margin-right: 50px;
+	text-transform: uppercase;
+}
+
+.nav-menu a{
+	float: left;
+	display: block;
+	padding: 30px 20px;
+	color: rgb(0,0,0);
+	text-align: center;
+	font-size: 16px;
+}
+
+.nav-menu a:hover{
+	color: rgba(0,143,215 ,1);
+}
+
+.nav-menu li{
+	text-decoration: none;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.fakeimg {
+	height: 300px;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(3,169,244 ,1), rgba(21,101,192 ,1));
+	color: rgb(255,255,255);
+}
+
+#uns-icon{
+	margin-right: 15px;
+	width: 30px;
+}
+
+/**Footer*/
+.footer{
+	padding: 20px 20px;
+	background: rgb(255,255,255);
+	color: rgba(0,0,0, 1);
+	border-top: 5px solid rgba(255,235,59 ,1);
+}
+
+.footer a{
+	text-decoration: none;
+	color: rgba(0,0,0 ,1);
+}
+
+.footer ul{
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.footer li{
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.footer a:hover{
+	color: rgba(0,143,215 ,1);
+}
+
+#uns-name{
+	padding: 10px;
+	background: linear-gradient(to right, rgba(3,169,244 ,1), rgba(21,101,192 ,1));
+	text-align: center;
+}
+
+#uns-name p{
+	color: rgb(255,255,255);
+	text-transform: uppercase;
+}
+
+#uns-name a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+#uns-name a:hover{
+	color: rgba(255,235,59 ,1);
+}
+
+/**Tampilan Responsif*/
+@media screen and (min-width: 720px){
+	.top-menu a{
+		display: inline;
+	}
+	.top-menu a.icon {
+		visibility: hidden;
+	}
+	.nav-menu a.icon {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.top-menu a:not(:first-child) {display: none;}
+	.top-menu a.icon {
+		float: right;
+		display: block;
+	}
+	.top-menu{
+		padding-left: 0;
+		height: 100%;
+	}
+	.bottom-menu{
+		padding-left: 0;
+	}
+	.bottom-menu #logo{
+		padding-left: 10px;
+	}
+	
+	.bottom-menu #institution-name{
+		padding-top: 20px;
+		font-size: 13px;
+	}
+	
+	#uns-logo{
+		margin: 0;
+		width: 60px;
+	}
+
+	nav #institution-name{
+		font-size: 13px;
+	}
+
+	.nav-menu a{display: none;}
+	.nav-menu a.icon {
+		float: right;
+		display: block;
+	}
+	.nav-menu{
+		padding-left: 0;
+		width: 100%;
+	}
+	.fakeimg {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.top-menu.responsive {position: relative;}
+	.top-menu.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.top-menu.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.nav-menu.responsive {position: relative;}
+	.nav-menu.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.nav-menu.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.fakeimg {
+		width: 100%;
+	}
+}
+
+/**Hasil Pencarian*/
+.container { margin-top: 20px; }
+.mb20 { margin-bottom: 20px; } 
+
+hgroup { padding-left: 15px; border-bottom: 1px solid #ccc; }
+hgroup h1 { font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin-top: 0; line-height: 1.15; }
+hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }
+
+.search-result .thumbnail { border-radius: 0 !important; }
+.search-result:first-child { margin-top: 0 !important; }
+.search-result { margin-top: 20px; }
+.search-result .col-md-4 { border-right: 1px dotted #ccc; min-height: 140px; }
+.search-result ul { padding-left: 0 !important; list-style: none;  }
+.search-result ul li { font: 400 normal .85em "Roboto",Arial,Verdana,sans-serif;  line-height: 30px; }
+.search-result ul li i { padding-right: 5px; }
+.search-result .col-md-8 { position: relative; }
+.search-result h3 { font: 500 normal 1.375em "Roboto",Arial,Verdana,sans-serif; margin-top: 0 !important; margin-bottom: 10px !important; }
+.search-result h3 > a, .search-result i { color: #248dc1 !important; }
+.search-result p { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; } 
+.search-result span.plus { position: absolute; right: 0; top: 126px; }
+.search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }
+.search-result span.plus a:hover { background-color: #414141; }
+.search-result span.plus a i { color: #fff !important; }
+.search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+

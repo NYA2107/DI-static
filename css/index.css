@@ -1,0 +1,100 @@
+body{
+  font-family: 'Fira Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255,255,255);
+}
+
+.topmenu{
+  background: linear-gradient(to right, rgb(17, 134, 197), rgb(255,255,0));
+}
+
+.topmenu nav a{
+  color: rgb(0,0,0);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topmenu nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.topmenu nav li{
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header{
+  background: rgb(245, 245, 245);
+  min-height: 80px;
+  border-bottom: rgb(221, 235, 65) 10px solid;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header #logo{
+  float: left;
+  padding: 20px;
+}
+
+header a{
+  color: rgb(0,0,0);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav{
+  float: right;
+  margin-top: 30px;
+}
+
+header li :hover{
+  font-weight: 700;
+  color: rgb(17, 134, 197);
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(255,255,255);;
+  background-color: rgb(63,64,148);
+  border-top: rgb(121, 63,148) 10px solid;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer ul{
+  margin: 0;
+  padding: 0;
+}
+
+footer li{
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  header a {
+    float: none;
+    width: 100%;
+  }
+}

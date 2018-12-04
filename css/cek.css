@@ -1,0 +1,91 @@
+.container-berita{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.judul-section{
+    transition:0.2s all;
+    border-radius: 5px;
+    padding:5px;
+    border-top: 5px solid #0E7FD4;
+}
+
+.judul-section h2{
+    font-weight: bold;
+}
+.card-image{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.img-berita{
+    width: 100%;
+    height: auto;
+}
+#search-a{
+    transition: 0.5s all;
+    float: right;
+    margin-top:3px;
+    margin-right: 10px;
+    padding:0px;
+}
+
+#search-a:hover{
+    background-color:#1270C9;
+}
+
+#search-a input{
+    margin-right: 5px;
+}
+.btn-agenda-container{
+    cursor:pointer;
+    font-weight: bold;
+    width: 100%;
+}
+.btn-agenda{
+    width: 100%;
+}
+.pengumuman{
+    cursor: pointer;
+}
+.card-body-pengumuman{
+    padding: 4px;
+}
+.card-image-pengumuman{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.card-image-pengumuman img{
+    transform: translateY(-30px);
+}
+@media only screen and (max-width: 600px) {
+    .card-image{
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .card-image{
+        height: 100px;
+    }
+    #search-a{
+        width: 100%;
+        float:left;
+    }
+    #search-a input{
+        margin:10px;
+        width: 60%;
+        float:left;
+    }
+    #search-a button{
+        margin:10px;
+        width: 20%;
+        float:left;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .card-image{
+        height: 100px;
+    }
+}
